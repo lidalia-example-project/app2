@@ -1,0 +1,15 @@
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group 'lidalia'
+version '1-SNAPSHOT'
+
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'lidalia:lib:1.0.0-SNAPSHOT'
+}
